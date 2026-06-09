@@ -64,3 +64,4 @@ allure serve allure_results
 2. Поле firstName при создании курьера упал, потому что API вернул код 201 вместо ожидаемого 400 - это баг.
 
 
+# Sprint_7
