@@ -65,3 +65,4 @@ allure serve allure_results
 
 
  
+# Sprint_7
