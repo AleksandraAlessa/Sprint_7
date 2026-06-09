@@ -40,7 +40,7 @@ cd Sprint_7
 bash
 python -m venv .venv
 source .venv/Scripts/activate   # для Windows Git Bash
-# или .venv\Scripts\activate    # для Windows CMD
+.venv\Scripts\activate    # для Windows CMD
 3. Установка зависимостей
 bash
 pip install -r requirements.txt
