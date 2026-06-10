@@ -9,7 +9,7 @@
 - **Создание заказа** (`POST /api/v1/orders`)
 - **Список заказов** (`GET /api/v1/orders`)
 
-## Приложения и версии
+## Технологии
 - Python 3.14
 - pytest – тестовый фреймворк
 - requests – отправка HTTP-запросов
@@ -40,7 +40,7 @@ cd Sprint_7
 bash
 python -m venv .venv
 source .venv/Scripts/activate   # для Windows Git Bash
-.venv\Scripts\activate    # для Windows CMD
+# или .venv\Scripts\activate    # для Windows CMD
 3. Установка зависимостей
 bash
 pip install -r requirements.txt
@@ -58,10 +58,9 @@ allure serve allure_results
 Для создания заказа применяется параметризация по цветам (BLACK, GREY, оба цвета, без цвета).
 
 ## Отчет о тестировании:
-Из 16 тестов 14 прошли проверку Passed, 2 теста - Failed
-1. Тест на отсутствие поля password при логине может возвращать 504 Gateway Timeout вместо 400 – это баг
-
-2. Поле firstName при создании курьера упал, потому что API вернул код 201 вместо ожидаемого 400 - это баг.
+Из 15 тестов 14 прошли проверку Passed, 1 тест - Failed:
+Тест на отсутствие поля password при логине может возвращать 504 Gateway Timeout вместо 400 – это баг
 
 
- 
+
+
